@@ -225,99 +225,99 @@ for j in range(2, 5):
         i += 1
 
 btnClear = Button(calc, text=chr(67), width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                  , bg='grey', command=added_value.clear_entry).grid(row=1, column=0, pady=1)
+                  , bg='silver', command=added_value.clear_entry).grid(row=1, column=0, pady=1)
 
 btnAllClear = Button(calc, text=chr(67) + chr(69), width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                     , bg='grey', command=added_value.all_clear_entry).grid(row=1, column=1, pady=1)
+                     , bg='silver', command=added_value.all_clear_entry).grid(row=1, column=1, pady=1)
 
 btnsqrt = Button(calc, text="√", width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                 , bg='grey', command=added_value.squared).grid(row=1, column=2, pady=1)
+                 , bg='silver', command=added_value.squared).grid(row=1, column=2, pady=1)
 
 btnadd = Button(calc, text='+', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=lambda: added_value.operation('add')).grid(row=1, column=3, pady=1)
+                , bg='silver', command=lambda: added_value.operation('add')).grid(row=1, column=3, pady=1)
 
 btnsub = Button(calc, text='-', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=lambda: added_value.operation('sub')).grid(row=2, column=3, pady=1)
+                , bg='silver', command=lambda: added_value.operation('sub')).grid(row=2, column=3, pady=1)
 
 btnmul = Button(calc, text='*', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=lambda: added_value.operation('multi')).grid(row=3, column=3, pady=1)
+                , bg='silver', command=lambda: added_value.operation('multi')).grid(row=3, column=3, pady=1)
 
 btndiv = Button(calc, text=chr(247), width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=lambda: added_value.operation('divide')).grid(row=4, column=3, pady=1)
+                , bg='silver', command=lambda: added_value.operation('divide')).grid(row=4, column=3, pady=1)
 
 btnzero = Button(calc, text='0', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                 , bg='grey', command=lambda: added_value.numberEnter(0)).grid(row=5, column=0, pady=1)
+                 , bg='silver', command=lambda: added_value.numberEnter(0)).grid(row=5, column=0, pady=1)
 
 btndot = Button(calc, text='.', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=lambda: added_value.operation('.')).grid(row=5, column=1, pady=1)
+                , bg='silver', command=lambda: added_value.operation('.')).grid(row=5, column=1, pady=1)
 
 btnpm = Button(calc, text=chr(177), width=6, height=2, font=('arial', 20, 'bold'), bd=4
-               , bg='grey', command=added_value.mathsPM).grid(row=5, column=2, pady=1)
+               , bg='silver', command=added_value.mathsPM).grid(row=5, column=2, pady=1)
 
 btnequals = Button(calc, text='=', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                   , bg='grey', command=added_value.sum_of_total).grid(row=5, column=3, pady=1)
+                   , bg='silver', command=added_value.sum_of_total).grid(row=5, column=3, pady=1)
 
 # ================SCIENTIFIC CALCULATOR===================
 
 btnPi = Button(calc, text='π', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-               , bg='grey', command=added_value.pi).grid(row=1, column=4, pady=1)
+               , bg='silver', command=added_value.pi).grid(row=1, column=4, pady=1)
 
 btncos = Button(calc, text='cos', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.cos).grid(row=1, column=5, pady=1)
+                , bg='silver', command=added_value.cos).grid(row=1, column=5, pady=1)
 
 btntan = Button(calc, text='tan', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.tan).grid(row=1, column=6, pady=1)
+                , bg='silver', command=added_value.tan).grid(row=1, column=6, pady=1)
 
 btnsin = Button(calc, text='sin', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.sin).grid(row=1, column=7, pady=1)
+                , bg='silver', command=added_value.sin).grid(row=1, column=7, pady=1)
 
 btn2Pi = Button(calc, text='2π', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.tau).grid(row=2, column=4, pady=1)
+                , bg='silver', command=added_value.tau).grid(row=2, column=4, pady=1)
 
 btncosh = Button(calc, text='cosh', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                 , bg='grey', command=added_value.cosh).grid(row=2, column=5, pady=1)
+                 , bg='silver', command=added_value.cosh).grid(row=2, column=5, pady=1)
 
 btntanh = Button(calc, text='tanh', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                 , bg='grey', command=added_value.tanh).grid(row=2, column=6, pady=1)
+                 , bg='silver', command=added_value.tanh).grid(row=2, column=6, pady=1)
 
 btnsinh = Button(calc, text='sinh', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                 , bg='grey', command=added_value.sinh).grid(row=2, column=7, pady=1)
+                 , bg='silver', command=added_value.sinh).grid(row=2, column=7, pady=1)
 
 btnlog = Button(calc, text='log', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.log).grid(row=3, column=4, pady=1)
+                , bg='silver', command=added_value.log).grid(row=3, column=4, pady=1)
 
 btnExp = Button(calc, text='Exp', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.exp).grid(row=3, column=5, pady=1)
+                , bg='silver', command=added_value.exp).grid(row=3, column=5, pady=1)
 
 btnmod = Button(calc, text='Mod', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=lambda: added_value.operation('mod')).grid(row=3, column=6, pady=1)
+                , bg='silver', command=lambda: added_value.operation('mod')).grid(row=3, column=6, pady=1)
 
 btnE = Button(calc, text='e', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-              , bg='grey', command=added_value.e).grid(row=3, column=7, pady=1)
+              , bg='silver', command=added_value.e).grid(row=3, column=7, pady=1)
 
 btnlog2 = Button(calc, text='log2', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                 , bg='grey', command=added_value.log2).grid(row=4, column=4, pady=1)
+                 , bg='silver', command=added_value.log2).grid(row=4, column=4, pady=1)
 
 btndeg = Button(calc, text='deg', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                , bg='grey', command=added_value.degrees).grid(row=4, column=5, pady=1)
+                , bg='silver', command=added_value.degrees).grid(row=4, column=5, pady=1)
 
 btnacosh = Button(calc, text='acosh', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                  , bg='grey', command=added_value.acosh).grid(row=4, column=6, pady=1)
+                  , bg='silver', command=added_value.acosh).grid(row=4, column=6, pady=1)
 
 btnasinh = Button(calc, text='asinh', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                  , bg='grey', command=added_value.asinh).grid(row=4, column=7, pady=1)
+                  , bg='silver', command=added_value.asinh).grid(row=4, column=7, pady=1)
 
 btnlog10 = Button(calc, text='log10', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                  , bg='grey', command=added_value.log10).grid(row=5, column=4, pady=1)
+                  , bg='silver', command=added_value.log10).grid(row=5, column=4, pady=1)
 
 btnlog1p = Button(calc, text='log1p', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                  , bg='grey', command=added_value.log1p).grid(row=5, column=5, pady=1)
+                  , bg='silver', command=added_value.log1p).grid(row=5, column=5, pady=1)
 
 btnexpm1 = Button(calc, text='expm1', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                  , bg='grey', command=added_value.expm1).grid(row=5, column=6, pady=1)
+                  , bg='silver', command=added_value.expm1).grid(row=5, column=6, pady=1)
 
 btnlgamma = Button(calc, text='lgamma', width=6, height=2, font=('arial', 20, 'bold'), bd=4
-                   , bg='grey', command=added_value.lgamma).grid(row=5, column=7, pady=1)
+                   , bg='silver', command=added_value.lgamma).grid(row=5, column=7, pady=1)
 
 lblDisplay = Label(calc, text='SCIENTIFIC CALCULATOR', font=('arial', 20, 'bold'), justify='center')
 lblDisplay.grid(row=0, column=4, columnspan=4)
